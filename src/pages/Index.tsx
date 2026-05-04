@@ -5,6 +5,7 @@ import Rubrics from "@/components/Rubrics";
 import Featured from "@/components/Featured";
 import Promo from "@/components/Promo";
 import Formats from "@/components/Formats";
+import ContentTypes from "@/components/ContentTypes";
 import Monetization from "@/components/Monetization";
 import Subscribe from "@/components/Subscribe";
 import Footer from "@/components/Footer";
@@ -19,6 +20,7 @@ const Index = () => {
       <Featured />
       <Promo />
       <Formats />
+      <ContentTypes />
       <Monetization />
       <Subscribe />
       <Footer />
