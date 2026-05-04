@@ -29,7 +29,7 @@ export default function Subscribe() {
   }
 
   return (
-    <section className="bg-neutral-100 py-20 px-6">
+    <section id="subscribe" className="bg-neutral-100 py-20 px-6">
       <div className="max-w-2xl mx-auto text-center">
         <p className="uppercase tracking-widest text-xs text-neutral-500 mb-4">Рассылка</p>
         <h2 className="text-3xl md:text-5xl font-bold text-neutral-900 mb-4 leading-tight">

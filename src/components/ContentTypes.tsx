@@ -56,7 +56,7 @@ export default function ContentTypes() {
   const [active, setActive] = useState<number | null>(null);
 
   return (
-    <section className="bg-white py-20 px-6 border-t border-neutral-100">
+    <section id="genres" className="bg-white py-20 px-6 border-t border-neutral-100">
       <div className="max-w-6xl mx-auto">
         <p className="uppercase tracking-widest text-xs text-neutral-400 mb-4">Редполитика</p>
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">

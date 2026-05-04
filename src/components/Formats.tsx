@@ -51,7 +51,7 @@ const platformColors: Record<string, string> = {
 
 export default function Formats() {
   return (
-    <section className="bg-neutral-50 py-20 px-6">
+    <section id="formats" className="bg-neutral-50 py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <p className="uppercase tracking-widest text-xs text-neutral-400 mb-4">Контент-форматы</p>
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">

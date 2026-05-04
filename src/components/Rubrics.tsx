@@ -33,7 +33,7 @@ const rubrics = [
 
 export default function Rubrics() {
   return (
-    <section className="bg-neutral-900 py-20 px-6">
+    <section id="rubrics" className="bg-neutral-900 py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <p className="uppercase tracking-widest text-xs text-neutral-500 mb-4">Рубрики</p>
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-14 leading-tight max-w-xl">
