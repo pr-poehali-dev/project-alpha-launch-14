@@ -4,6 +4,7 @@ import Reviews from "@/components/Reviews";
 import Rubrics from "@/components/Rubrics";
 import Featured from "@/components/Featured";
 import Promo from "@/components/Promo";
+import Formats from "@/components/Formats";
 import Monetization from "@/components/Monetization";
 import Subscribe from "@/components/Subscribe";
 import Footer from "@/components/Footer";
@@ -17,6 +18,7 @@ const Index = () => {
       <Rubrics />
       <Featured />
       <Promo />
+      <Formats />
       <Monetization />
       <Subscribe />
       <Footer />
