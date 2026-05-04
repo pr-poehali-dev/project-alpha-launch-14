@@ -1,7 +1,9 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Reviews from "@/components/Reviews";
 import Featured from "@/components/Featured";
 import Promo from "@/components/Promo";
+import Subscribe from "@/components/Subscribe";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -9,8 +11,10 @@ const Index = () => {
     <main className="min-h-screen">
       <Header />
       <Hero />
+      <Reviews />
       <Featured />
       <Promo />
+      <Subscribe />
       <Footer />
     </main>
   );

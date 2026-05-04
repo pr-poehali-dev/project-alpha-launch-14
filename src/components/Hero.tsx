@@ -33,9 +33,12 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-xl mx-auto opacity-90 font-light">
           Без снобизма. С картинками. Иногда смешно. Иногда до слёз.
         </p>
-        <button className="mt-10 border border-white text-white px-8 py-3 uppercase text-sm tracking-widest hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
+        <a
+          href="#reviews"
+          className="mt-10 inline-block border border-white text-white px-8 py-3 uppercase text-sm tracking-widest hover:bg-white hover:text-black transition-all duration-300"
+        >
           Читать
-        </button>
+        </a>
       </div>
     </div>
   );
